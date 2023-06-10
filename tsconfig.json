@@ -16,10 +16,10 @@
     "incremental": true,
     "plugins": [
       {
-        "name": "next"
+        "name": "typescript-plugin-css-modules"
       },
       {
-        "name": "typescript-plugin-css-modules"
+        "name": "next"
       }
     ],
     "paths": {
