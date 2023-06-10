@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "vitest --run"
+    "test": "npm run test:unit",
+    "test:unit": "vitest --run"
   },
   "dependencies": {
     "@types/node": "20.2.6",
