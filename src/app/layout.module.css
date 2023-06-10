@@ -1,0 +1,8 @@
+.mainWrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  row-gap: 1rem;
+
+  padding: 1rem;
+  min-height: 100vh;
+}
