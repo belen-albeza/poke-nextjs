@@ -1,0 +1,29 @@
+.page {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+
+  @media (min-width: 960px) {
+    font-size: 5vw;
+  }
+}
+
+.sprite {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  width: 100%;
+}
+
+.types {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  text-transform: capitalize;
+}
